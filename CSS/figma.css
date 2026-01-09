@@ -183,6 +183,7 @@ letter-spacing: 0px;
     background-color: #1AE570;
   margin-top: 60px;
     padding: 10px 20px;
+    min-width: max-content;
     
 }
 #section2 .btn:hover{

@@ -7,6 +7,7 @@ a{
 }
 a:hover{
     transition: all 0,3s ease-in-out;
+    color: #1AE570;
 }
 #burger{
     display: none;
@@ -37,6 +38,10 @@ font-size: 18px;
 line-height: 22.5px;
 letter-spacing: -0.27px;
 color: #0D1C12;
+}
+.logout:hover{
+    color: #E8F2ED;
+   background-color: #1AE570;
 }
 
 header div{

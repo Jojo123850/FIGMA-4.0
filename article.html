@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FIGMA 4 </title>
-    <link rel="stylesheet" href="CSS/figma3.css">
+    <link rel="stylesheet" href="CSS/article.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Pacifico&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
@@ -19,13 +19,15 @@
             <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="index2.html">My articles</a></li>
-                <li><a href="#">Dashboard</a></li>
+                <li><a href="detail.html">My articles</a></li>
+                <li><a href="dashboard.html">Dashboard</a></li>
             </ul>
         </nav>
              <a class="logout" href="#">Logout</a>
              <img class="image" src="img/page3.png" alt="image3">
         </div>
+        
+            <i id="burger" class="fa-solid fa-bars"></i>
             
     </header>
 
@@ -36,12 +38,12 @@
                 <form action="#">
                     <div>
                         <h2>Title</h2>
-                        <textarea name="text" id="title">Title</textarea>
+                        <textarea name="text"rows="2" cols="33" placeholder="Title" ></textarea>
                     </div>
 
                     <div>
                         <h2>Write your post</h2>
-                        <textarea name="text" id="title">Start writing here...</textarea>
+                        <textarea name="text" rows="6" cols="33" placeholder="Start writing here..."></textarea>
                     </div>
 
                  </form>
@@ -49,14 +51,35 @@
                 <h2>Add a category</h2>
                 <nav>
                     <ul>
-                        <li><a href="#">technology</a></li>
-                        <li><a href="#">sciences</a></li>
+                        <li><a href="index.html">Technology</a></li>
+                        <li><a href="article.html">Siences</a></li>
                         <li><a href="#">Business</a></li>
-                        <li><a href="#">art</a></li>
+                        <li><a href="#">Art</a></li>
                      </ul>
                  </nav>
             </div>
+            <div class="bouton">
+                    <nav>
+                    <ul>
+                        <li><a href="#"></a>Upload image</li>
+                         <li><a href="#"></a>Publish</li>
+                    </ul>
+                  </nav>
+            </div>
                   
+            
         </section>
         
     </main>
+<footer>
+    <div class="footer">
+        <div>
+                <a href="#"><i class="fa-brands fa-discord"></i></a>
+                 <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                 <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+            <p>© 2024 Writer</p>
+
+    </div>
+            
+</footer>

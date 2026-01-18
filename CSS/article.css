@@ -7,6 +7,8 @@ a{
 }
 a:hover{
     transition: all 0,3s ease-in-out;
+    color: #1AE570;
+   
 }
 #burger{
     display: none;
@@ -80,9 +82,13 @@ header div .image{
     color: rgba(13, 28, 18, 1);
 
 }
+.logout:hover{
+    color: #E8F2ED;
+   background-color: #1AE570;
+}
 #section{
-    width: 512;
-    height: 599;
+    width: 512px;
+    height: 599px;
     opacity: 1;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -139,6 +145,10 @@ header div .image{
     padding-right: 5px;
     padding-bottom: 5px;
 }
+textarea{
+    background-color: #E8F2ED;
+    border-color: #E8F2ED;
+}
 #section .div2 nav a{
     color: black;
     text-decoration: none;
@@ -149,10 +159,11 @@ header div .image{
 #section .div2 ul{
     display: flex;
     list-style: none;
-    gap: 40px;
+    gap: 10px;
     padding-top: 10px;
     padding-left: 0;
 }
+
 #section .div2 ul li{
     display: flex;
 }
@@ -170,4 +181,134 @@ header div .image{
 
 
 }
+#section .div2 nav a:hover{
+    color: #E8F2ED;
+    background-color: #0D1C12;
+}
+
+
+
+
+::placeholder{
+    color: #4F966E;
+    font-family: "Newsreader", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0px;
+    padding-left: 10px;
+
+}
+
+.bouton nav ul{
+    display: flex;
+    margin-left: 100px;
+    margin-top: 15px;
+    gap:10px; 
+}
+
+.bouton nav ul li{
+    text-decoration: none;
+    list-style: none;
+    height: 40px;
+    padding-right: 16px;
+    padding-left: 16px;
+    opacity: 1;
+    border-radius: 20px;
+    border-color: #E8F2ED;
+    background-color: #E8F2ED;
+    font-family:" Newsreader",sans-serif;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.21px;
+    color: #0D1C12;
+ align-content: space-evenly;
+}
+.bouton nav ul li:hover{
+    color: #E8F2ED;
+    background-color: #1AE570;
+}
+
+/* FOOTER */
+
+footer{
+    max-width: 1280px;
+    margin: auto;
+
+}
+.footer{
+    max-width: 960px;
+    margin: auto;
     
+   
+}
+.footer div {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+   
+}
+.footer div a{
+    color: #4F966E;
+    width: 24px;
+    height: 24px;
+
+}
+.footer p{
+    font-family:" Newsreader",sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: center;
+    margin-top: 20px;
+    color: #4F966E;
+}
+
+/* RESPONSIVE TABLETTE */
+@media screen and (max-width:1024px)   {
+    #burger{
+        display: block;
+    }
+    header nav{
+        display: none;
+    }
+    .image{
+        display: none;
+    }
+    header{
+        display: flex;
+        justify-content: space-between;
+    }
+    .logout{
+        display: none;
+    }
+     #section{
+        justify-items: center;
+    }
+
+}
+
+/* RESPONSIVE MOBILE */
+@media screen and (max-width:767px)   {
+    header nav{
+        display: none;
+    }
+    .image{
+        display: none;
+    }
+    .logout{
+        display: none;
+    }
+    header{
+        display: flex;
+        justify-content: space-between;
+    }
+    #section{
+        justify-items: center;
+    }
+  
+}
+

@@ -151,6 +151,7 @@ header div .image{
     list-style: none;
     gap: 40px;
     padding-top: 10px;
+    padding-left: 0;
 }
 #section .div2 ul li{
     display: flex;
